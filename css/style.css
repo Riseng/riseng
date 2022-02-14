@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+
+    font-family: "montserratregular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+
+}
+a{
+    text-decoration: none;
+}
+.header {
+    min-height: 300px;
+    background: #F9F6F1;
+}
+
+.header-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    min-height: 90px;
+    background-color:#F9F6F1;
+    
+}
+.section__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container {
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.banner {
+    background-color:#F9F6F1;
+    margin-top: 90px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.mainmenu__item{
+    margin-right: 30px;
+    
+}
+.polygon{
+    padding-bottom: 5px;
+    
+}
+.menu__link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.slider__item{
+    display: flex;
+    padding-top: 166px;
+    justify-content: space-between;
+    min-height: 564px;
+    background:url('../img/arina.jpg') no-repeat right center;
+
+    
+    
+}
+.slider__text{
+    font-size: 60px;
+    left: -300px;
+}
+.slider__big-text{
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    
+}
+.button{
+    display: block;
+    width: 240px;
+    padding: 22px 0;
+    text-align: center;
+    background-color: #d7b399;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    
+}
+.slider__item-price{
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 1px;
+    
+}
+.slider__price--old{
+    font-size: 24px;
+    text-decoration-line: line-through;
+    
+}
+.slider__price--new{
+    font-size: 42px;
+    color: #d84033;
+   
+}
+.slider__button{
+    position:absolute;
+    top: 50%;
+}
+.slider__button--prev{
+    left: -100px;
+}
+.slider__button--next{
+    right: -350px;
+    
+}
+.dress__wrapper{
+    flex-wrap: wrap;
+    
+}
+.dress__item{
+    
+
+    position: relative;
+    width: 277px;
+    height: 236px;
+    text-align: right;
+}
+.dress__item--grey{
+    background-color: #f4f4f4;
+}
+.dress__item--cream{
+    background-color: #f9f6f1;
+}
+.arina{
+    width: 100px;
+}
